@@ -1,0 +1,93 @@
+.share_buttons {
+  margin: 30px auto;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0px;
+}
+
+.share_buttons > ul {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.share_buttons > ul > li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.share_buttons > ul > li > a, .icon {
+  display: inline-block;
+}
+
+.share_buttons > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em 0px;
+  line-height: 1.5em;
+}
+
+.share_buttons > ul > li > a > .button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+  min-width: 120px;
+}
+
+.share_buttons > ul > li > a > .button > .icon {
+  fill: #fff;
+  stroke: none;
+  position: relative;
+  top: -1px;
+  left: 1px;
+}
+
+.share_buttons > ul > li > a > .button > .icon > svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  line-height: 1em;
+}
+
+.share_buttons > ul > li > a > .button > .icon > svg > path {
+  fill: #fff;
+}
+
+.share_buttons > ul > li[data-service="facebook"] > a > .button {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.share_buttons > ul > li[data-service="facebook"] > a:active > .button,
+  .share_buttons > ul > li[data-service="facebook"] > a:hover > .button {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.share_buttons > ul > li[data-service="twitter"] > a > .button {
+  background-color: #55acee;
+}
+
+.share_buttons > ul > li[data-service="twitter"] > a:active > .button,
+  .share_buttons > ul > li[data-service="twitter"] > a:hover > .button {
+  background-color: #2795e9;
+}
+
+.share_buttons > ul > li[data-service="reddit"] > a > .button {
+  background-color: #5f99cf;
+}
+
+.share_buttons > ul > li[data-service="reddit"] > a:active > .button,
+  .share_buttons > ul > li[data-service="reddit"] > a:hover > .button {
+  background-color: #3a80c1;
+}
+
+.share_buttons > ul > li[data-service="hacker_news"] > a > .button {
+  background-color: #ff6600;
+}
+
+.share_buttons > ul > li[data-service="hacker_news"] > a:active > .button,
+  .share_buttons > ul > li[data-service="hacker_news"] > a:hover > .button {
+  background-color: #fb6200;
+}
